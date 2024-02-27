@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(33, 48, 18);
+    font-family: "Advent";
+}
+
+@font-face {
+    font-family: 'Advent';
+    src: url(./fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+}
+
+#principal{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background-image: linear-gradient(
+        180deg,
+        hsl(90, 77%, 75%),
+        hsl(101, 31%, 47%));
+
+        -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+  background-clip: text; /* Padrão, para navegadores que suportam */
+  /* Define a cor do texto como transparente, para que o gradiente seja visível */
+  color: transparent;
+}
+
+h1{
+    font:'Advent', verdana, sans-serif;
+    color: hsl(90, 100%, 50%);
+}
+
+h2{
+    color: hsl(90, 77%, 75%);
+}
+
+p{
+    color: hsl(101, 31%, 47%);
+    text-align: justify;
+}
